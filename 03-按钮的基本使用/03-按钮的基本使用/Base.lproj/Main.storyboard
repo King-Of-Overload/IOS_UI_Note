@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7703" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yuF-ck-i7d">
+                                <rect key="frame" x="100" y="66" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="摸摸我吧" backgroundImage="1">
+                                    <color key="titleColor" red="0.62046088081889605" green="0.84613320881557286" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" title="摸我干啥" backgroundImage="2">
+                                    <color key="titleColor" red="1" green="0.18324594620000001" blue="0.1127621706" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s7X-ta-7iS">
+                                <rect key="frame" x="45" y="244" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="uph"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="huB-HR-Ch8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="P0y-PL-VFp">
+                                <rect key="frame" x="5" y="294" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="lefth"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KaU-14-16W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eH9-Ba-i8S">
+                                <rect key="frame" x="45" y="337" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="down">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="downh"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AOE-KT-O0a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mlR-AW-lz8">
+                                <rect key="frame" x="175" y="294" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="zoomup">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="zoomuph"/>
+                                <connections>
+                                    <action selector="zoomup" destination="vXZ-lx-hvc" eventType="touchUpInside" id="371-2L-ono"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j5e-gn-iUz">
+                                <rect key="frame" x="260" y="294" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="zoomdown">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="zomdownh"/>
+                                <connections>
+                                    <action selector="zoomdown" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i3Y-De-jY2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5EK-DQ-jAC">
+                                <rect key="frame" x="91" y="294" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="righth"/>
+                                <connections>
+                                    <action selector="move:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZYq-bR-kn9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="head" destination="yuF-ck-i7d" id="d2h-6n-ubn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74" y="449"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="120" height="120"/>
+        <image name="2" width="120" height="120"/>
+        <image name="down" width="16" height="16"/>
+        <image name="downh" width="16" height="16"/>
+        <image name="left" width="16" height="16"/>
+        <image name="lefth" width="16" height="16"/>
+        <image name="right" width="16" height="16"/>
+        <image name="righth" width="16" height="16"/>
+        <image name="up" width="16" height="16"/>
+        <image name="uph" width="16" height="16"/>
+        <image name="zomdownh" width="16" height="16"/>
+        <image name="zoomdown" width="16" height="16"/>
+        <image name="zoomup" width="16" height="16"/>
+        <image name="zoomuph" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
