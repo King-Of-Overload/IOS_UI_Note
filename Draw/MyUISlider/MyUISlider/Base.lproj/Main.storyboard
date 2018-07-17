@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-xI-skW" customClass="MyView">
+                                <rect key="frame" x="37" y="183.5" width="300" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXZ-ax-JrW">
+                                        <rect key="frame" x="8" y="-0.5" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="A88-16-I90"/>
+                                            <constraint firstAttribute="width" constant="300" id="KRl-So-BPP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96361702930000004" green="0.7199210439" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="iXZ-ax-JrW" secondAttribute="trailing" id="4Ue-d1-ef2"/>
+                                    <constraint firstItem="iXZ-ax-JrW" firstAttribute="top" secondItem="FJ8-xI-skW" secondAttribute="topMargin" id="9Cg-Yk-I2t"/>
+                                    <constraint firstAttribute="height" constant="300" id="C6C-fa-raV"/>
+                                    <constraint firstAttribute="bottom" secondItem="iXZ-ax-JrW" secondAttribute="bottom" id="DUE-NW-GT2"/>
+                                    <constraint firstAttribute="bottom" secondItem="iXZ-ax-JrW" secondAttribute="bottom" id="FvQ-sp-IO2"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="iXZ-ax-JrW" secondAttribute="bottom" id="GBi-OB-WY5"/>
+                                    <constraint firstAttribute="trailing" secondItem="iXZ-ax-JrW" secondAttribute="trailing" id="GVr-WE-Mc1"/>
+                                    <constraint firstItem="iXZ-ax-JrW" firstAttribute="top" secondItem="FJ8-xI-skW" secondAttribute="top" id="bHd-BV-Xh8"/>
+                                    <constraint firstItem="iXZ-ax-JrW" firstAttribute="leading" secondItem="FJ8-xI-skW" secondAttribute="leadingMargin" id="gHH-Js-sp0"/>
+                                    <constraint firstAttribute="trailing" secondItem="iXZ-ax-JrW" secondAttribute="trailing" id="ili-mz-71d"/>
+                                    <constraint firstItem="iXZ-ax-JrW" firstAttribute="top" secondItem="FJ8-xI-skW" secondAttribute="top" id="o5T-fV-Kms"/>
+                                    <constraint firstAttribute="width" constant="300" id="tx1-4e-SlV"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NTZ-0e-Zhe">
+                                <rect key="frame" x="18" y="513.5" width="339" height="31"/>
+                                <connections>
+                                    <action selector="porgressChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="7cf-ar-tr0"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NTZ-0e-Zhe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6H5-Md-nwN"/>
+                            <constraint firstItem="NTZ-0e-Zhe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G5r-0R-xQQ"/>
+                            <constraint firstItem="FJ8-xI-skW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K23-7D-71u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NTZ-0e-Zhe" secondAttribute="trailing" constant="20" id="Kp4-Sb-ti7"/>
+                            <constraint firstItem="FJ8-xI-skW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PjN-6p-jt6"/>
+                            <constraint firstItem="NTZ-0e-Zhe" firstAttribute="top" secondItem="FJ8-xI-skW" secondAttribute="bottom" constant="30" id="tDh-na-GGh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="FJ8-xI-skW" id="4g4-v6-zwu"/>
+                        <outlet property="progressLabel" destination="iXZ-ax-JrW" id="UXZ-aV-5JP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

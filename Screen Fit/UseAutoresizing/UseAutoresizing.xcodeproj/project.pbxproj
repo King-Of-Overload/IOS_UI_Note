@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CEA08C20E84FDA00293EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA08B20E84FDA00293EDA /* AppDelegate.m */; };
+		34CEA08F20E84FDA00293EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA08E20E84FDA00293EDA /* ViewController.m */; };
+		34CEA09420E84FDB00293EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CEA09320E84FDB00293EDA /* Assets.xcassets */; };
+		34CEA09720E84FDB00293EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CEA09520E84FDB00293EDA /* LaunchScreen.storyboard */; };
+		34CEA09A20E84FDB00293EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA09920E84FDB00293EDA /* main.m */; };
+		34CEA0A420E84FDB00293EDA /* UseAutoresizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA0A320E84FDB00293EDA /* UseAutoresizingTests.m */; };
+		34CEA0AF20E84FDB00293EDA /* UseAutoresizingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CEA0AE20E84FDB00293EDA /* UseAutoresizingUITests.m */; };
+		34CEA0BC20E8508500293EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CEA09020E84FDA00293EDA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CEA0A020E84FDB00293EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CEA07F20E84FDA00293EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CEA08620E84FDA00293EDA;
+			remoteInfo = UseAutoresizing;
+		};
+		34CEA0AB20E84FDB00293EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CEA07F20E84FDA00293EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CEA08620E84FDA00293EDA;
+			remoteInfo = UseAutoresizing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34CEA08720E84FDA00293EDA /* UseAutoresizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseAutoresizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CEA08A20E84FDA00293EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34CEA08B20E84FDA00293EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34CEA08D20E84FDA00293EDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34CEA08E20E84FDA00293EDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34CEA09120E84FDA00293EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CEA09320E84FDB00293EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CEA09620E84FDB00293EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34CEA09820E84FDB00293EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CEA09920E84FDB00293EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34CEA09F20E84FDB00293EDA /* UseAutoresizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseAutoresizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CEA0A320E84FDB00293EDA /* UseAutoresizingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseAutoresizingTests.m; sourceTree = "<group>"; };
+		34CEA0A520E84FDB00293EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CEA0AA20E84FDB00293EDA /* UseAutoresizingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseAutoresizingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CEA0AE20E84FDB00293EDA /* UseAutoresizingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseAutoresizingUITests.m; sourceTree = "<group>"; };
+		34CEA0B020E84FDB00293EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CEA08420E84FDA00293EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA09C20E84FDB00293EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA0A720E84FDB00293EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CEA07E20E84FDA00293EDA = {
+			isa = PBXGroup;
+			children = (
+				34CEA08920E84FDA00293EDA /* UseAutoresizing */,
+				34CEA0A220E84FDB00293EDA /* UseAutoresizingTests */,
+				34CEA0AD20E84FDB00293EDA /* UseAutoresizingUITests */,
+				34CEA08820E84FDA00293EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CEA08820E84FDA00293EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CEA08720E84FDA00293EDA /* UseAutoresizing.app */,
+				34CEA09F20E84FDB00293EDA /* UseAutoresizingTests.xctest */,
+				34CEA0AA20E84FDB00293EDA /* UseAutoresizingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CEA08920E84FDA00293EDA /* UseAutoresizing */ = {
+			isa = PBXGroup;
+			children = (
+				34CEA08A20E84FDA00293EDA /* AppDelegate.h */,
+				34CEA08B20E84FDA00293EDA /* AppDelegate.m */,
+				34CEA08D20E84FDA00293EDA /* ViewController.h */,
+				34CEA08E20E84FDA00293EDA /* ViewController.m */,
+				34CEA09020E84FDA00293EDA /* Main.storyboard */,
+				34CEA09320E84FDB00293EDA /* Assets.xcassets */,
+				34CEA09520E84FDB00293EDA /* LaunchScreen.storyboard */,
+				34CEA09820E84FDB00293EDA /* Info.plist */,
+				34CEA09920E84FDB00293EDA /* main.m */,
+			);
+			path = UseAutoresizing;
+			sourceTree = "<group>";
+		};
+		34CEA0A220E84FDB00293EDA /* UseAutoresizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CEA0A320E84FDB00293EDA /* UseAutoresizingTests.m */,
+				34CEA0A520E84FDB00293EDA /* Info.plist */,
+			);
+			path = UseAutoresizingTests;
+			sourceTree = "<group>";
+		};
+		34CEA0AD20E84FDB00293EDA /* UseAutoresizingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34CEA0AE20E84FDB00293EDA /* UseAutoresizingUITests.m */,
+				34CEA0B020E84FDB00293EDA /* Info.plist */,
+			);
+			path = UseAutoresizingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CEA08620E84FDA00293EDA /* UseAutoresizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CEA0B320E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizing" */;
+			buildPhases = (
+				34CEA08320E84FDA00293EDA /* Sources */,
+				34CEA08420E84FDA00293EDA /* Frameworks */,
+				34CEA08520E84FDA00293EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UseAutoresizing;
+			productName = UseAutoresizing;
+			productReference = 34CEA08720E84FDA00293EDA /* UseAutoresizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CEA09E20E84FDB00293EDA /* UseAutoresizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CEA0B620E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizingTests" */;
+			buildPhases = (
+				34CEA09B20E84FDB00293EDA /* Sources */,
+				34CEA09C20E84FDB00293EDA /* Frameworks */,
+				34CEA09D20E84FDB00293EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CEA0A120E84FDB00293EDA /* PBXTargetDependency */,
+			);
+			name = UseAutoresizingTests;
+			productName = UseAutoresizingTests;
+			productReference = 34CEA09F20E84FDB00293EDA /* UseAutoresizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34CEA0A920E84FDB00293EDA /* UseAutoresizingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CEA0B920E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizingUITests" */;
+			buildPhases = (
+				34CEA0A620E84FDB00293EDA /* Sources */,
+				34CEA0A720E84FDB00293EDA /* Frameworks */,
+				34CEA0A820E84FDB00293EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CEA0AC20E84FDB00293EDA /* PBXTargetDependency */,
+			);
+			name = UseAutoresizingUITests;
+			productName = UseAutoresizingUITests;
+			productReference = 34CEA0AA20E84FDB00293EDA /* UseAutoresizingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CEA07F20E84FDA00293EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					34CEA08620E84FDA00293EDA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					34CEA09E20E84FDB00293EDA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34CEA08620E84FDA00293EDA;
+					};
+					34CEA0A920E84FDB00293EDA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34CEA08620E84FDA00293EDA;
+					};
+				};
+			};
+			buildConfigurationList = 34CEA08220E84FDA00293EDA /* Build configuration list for PBXProject "UseAutoresizing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CEA07E20E84FDA00293EDA;
+			productRefGroup = 34CEA08820E84FDA00293EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CEA08620E84FDA00293EDA /* UseAutoresizing */,
+				34CEA09E20E84FDB00293EDA /* UseAutoresizingTests */,
+				34CEA0A920E84FDB00293EDA /* UseAutoresizingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CEA08520E84FDA00293EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CEA0BC20E8508500293EDA /* Main.storyboard in Resources */,
+				34CEA09720E84FDB00293EDA /* LaunchScreen.storyboard in Resources */,
+				34CEA09420E84FDB00293EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA09D20E84FDB00293EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA0A820E84FDB00293EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CEA08320E84FDA00293EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CEA08F20E84FDA00293EDA /* ViewController.m in Sources */,
+				34CEA09A20E84FDB00293EDA /* main.m in Sources */,
+				34CEA08C20E84FDA00293EDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA09B20E84FDB00293EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CEA0A420E84FDB00293EDA /* UseAutoresizingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CEA0A620E84FDB00293EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CEA0AF20E84FDB00293EDA /* UseAutoresizingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CEA0A120E84FDB00293EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CEA08620E84FDA00293EDA /* UseAutoresizing */;
+			targetProxy = 34CEA0A020E84FDB00293EDA /* PBXContainerItemProxy */;
+		};
+		34CEA0AC20E84FDB00293EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CEA08620E84FDA00293EDA /* UseAutoresizing */;
+			targetProxy = 34CEA0AB20E84FDB00293EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CEA09020E84FDA00293EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CEA09120E84FDA00293EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CEA09520E84FDB00293EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CEA09620E84FDB00293EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CEA0B120E84FDB00293EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34CEA0B220E84FDB00293EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CEA0B420E84FDB00293EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34CEA0B520E84FDB00293EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		34CEA0B720E84FDB00293EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UseAutoresizing.app/UseAutoresizing";
+			};
+			name = Debug;
+		};
+		34CEA0B820E84FDB00293EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UseAutoresizing.app/UseAutoresizing";
+			};
+			name = Release;
+		};
+		34CEA0BA20E84FDB00293EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UseAutoresizing;
+			};
+			name = Debug;
+		};
+		34CEA0BB20E84FDB00293EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 297Z2NJ65K;
+				INFOPLIST_FILE = UseAutoresizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.zjut.UseAutoresizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UseAutoresizing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CEA08220E84FDA00293EDA /* Build configuration list for PBXProject "UseAutoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CEA0B120E84FDB00293EDA /* Debug */,
+				34CEA0B220E84FDB00293EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CEA0B320E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CEA0B420E84FDB00293EDA /* Debug */,
+				34CEA0B520E84FDB00293EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CEA0B620E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CEA0B720E84FDB00293EDA /* Debug */,
+				34CEA0B820E84FDB00293EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CEA0B920E84FDB00293EDA /* Build configuration list for PBXNativeTarget "UseAutoresizingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CEA0BA20E84FDB00293EDA /* Debug */,
+				34CEA0BB20E84FDB00293EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CEA07F20E84FDA00293EDA /* Project object */;
+}

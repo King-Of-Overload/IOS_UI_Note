@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34326E7720FD86AE00E40A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326E7620FD86AE00E40A18 /* AppDelegate.m */; };
+		34326E7A20FD86AE00E40A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326E7920FD86AE00E40A18 /* ViewController.m */; };
+		34326E7D20FD86AE00E40A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34326E7B20FD86AE00E40A18 /* Main.storyboard */; };
+		34326E7F20FD86B000E40A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34326E7E20FD86B000E40A18 /* Assets.xcassets */; };
+		34326E8220FD86B000E40A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34326E8020FD86B000E40A18 /* LaunchScreen.storyboard */; };
+		34326E8520FD86B000E40A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326E8420FD86B000E40A18 /* main.m */; };
+		34326E8F20FD86B000E40A18 /* DoubleCircleImgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326E8E20FD86B000E40A18 /* DoubleCircleImgTests.m */; };
+		34326E9A20FD86B000E40A18 /* DoubleCircleImgUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326E9920FD86B000E40A18 /* DoubleCircleImgUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34326E8B20FD86B000E40A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34326E6A20FD86AE00E40A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34326E7120FD86AE00E40A18;
+			remoteInfo = DoubleCircleImg;
+		};
+		34326E9620FD86B000E40A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34326E6A20FD86AE00E40A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34326E7120FD86AE00E40A18;
+			remoteInfo = DoubleCircleImg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34326E7220FD86AE00E40A18 /* DoubleCircleImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleCircleImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326E7520FD86AE00E40A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34326E7620FD86AE00E40A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34326E7820FD86AE00E40A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34326E7920FD86AE00E40A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34326E7C20FD86AE00E40A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34326E7E20FD86B000E40A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34326E8120FD86B000E40A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34326E8320FD86B000E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34326E8420FD86B000E40A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34326E8A20FD86B000E40A18 /* DoubleCircleImgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleCircleImgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326E8E20FD86B000E40A18 /* DoubleCircleImgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleCircleImgTests.m; sourceTree = "<group>"; };
+		34326E9020FD86B000E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34326E9520FD86B000E40A18 /* DoubleCircleImgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleCircleImgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326E9920FD86B000E40A18 /* DoubleCircleImgUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleCircleImgUITests.m; sourceTree = "<group>"; };
+		34326E9B20FD86B000E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34326E6F20FD86AE00E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E8720FD86B000E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E9220FD86B000E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34326E6920FD86AE00E40A18 = {
+			isa = PBXGroup;
+			children = (
+				34326E7420FD86AE00E40A18 /* DoubleCircleImg */,
+				34326E8D20FD86B000E40A18 /* DoubleCircleImgTests */,
+				34326E9820FD86B000E40A18 /* DoubleCircleImgUITests */,
+				34326E7320FD86AE00E40A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34326E7320FD86AE00E40A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34326E7220FD86AE00E40A18 /* DoubleCircleImg.app */,
+				34326E8A20FD86B000E40A18 /* DoubleCircleImgTests.xctest */,
+				34326E9520FD86B000E40A18 /* DoubleCircleImgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34326E7420FD86AE00E40A18 /* DoubleCircleImg */ = {
+			isa = PBXGroup;
+			children = (
+				34326E7520FD86AE00E40A18 /* AppDelegate.h */,
+				34326E7620FD86AE00E40A18 /* AppDelegate.m */,
+				34326E7820FD86AE00E40A18 /* ViewController.h */,
+				34326E7920FD86AE00E40A18 /* ViewController.m */,
+				34326E7B20FD86AE00E40A18 /* Main.storyboard */,
+				34326E7E20FD86B000E40A18 /* Assets.xcassets */,
+				34326E8020FD86B000E40A18 /* LaunchScreen.storyboard */,
+				34326E8320FD86B000E40A18 /* Info.plist */,
+				34326E8420FD86B000E40A18 /* main.m */,
+			);
+			path = DoubleCircleImg;
+			sourceTree = "<group>";
+		};
+		34326E8D20FD86B000E40A18 /* DoubleCircleImgTests */ = {
+			isa = PBXGroup;
+			children = (
+				34326E8E20FD86B000E40A18 /* DoubleCircleImgTests.m */,
+				34326E9020FD86B000E40A18 /* Info.plist */,
+			);
+			path = DoubleCircleImgTests;
+			sourceTree = "<group>";
+		};
+		34326E9820FD86B000E40A18 /* DoubleCircleImgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34326E9920FD86B000E40A18 /* DoubleCircleImgUITests.m */,
+				34326E9B20FD86B000E40A18 /* Info.plist */,
+			);
+			path = DoubleCircleImgUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34326E7120FD86AE00E40A18 /* DoubleCircleImg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326E9E20FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImg" */;
+			buildPhases = (
+				34326E6E20FD86AE00E40A18 /* Sources */,
+				34326E6F20FD86AE00E40A18 /* Frameworks */,
+				34326E7020FD86AE00E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleCircleImg;
+			productName = DoubleCircleImg;
+			productReference = 34326E7220FD86AE00E40A18 /* DoubleCircleImg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34326E8920FD86B000E40A18 /* DoubleCircleImgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326EA120FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImgTests" */;
+			buildPhases = (
+				34326E8620FD86B000E40A18 /* Sources */,
+				34326E8720FD86B000E40A18 /* Frameworks */,
+				34326E8820FD86B000E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34326E8C20FD86B000E40A18 /* PBXTargetDependency */,
+			);
+			name = DoubleCircleImgTests;
+			productName = DoubleCircleImgTests;
+			productReference = 34326E8A20FD86B000E40A18 /* DoubleCircleImgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34326E9420FD86B000E40A18 /* DoubleCircleImgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326EA420FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImgUITests" */;
+			buildPhases = (
+				34326E9120FD86B000E40A18 /* Sources */,
+				34326E9220FD86B000E40A18 /* Frameworks */,
+				34326E9320FD86B000E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34326E9720FD86B000E40A18 /* PBXTargetDependency */,
+			);
+			name = DoubleCircleImgUITests;
+			productName = DoubleCircleImgUITests;
+			productReference = 34326E9520FD86B000E40A18 /* DoubleCircleImgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34326E6A20FD86AE00E40A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					34326E7120FD86AE00E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					34326E8920FD86B000E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34326E7120FD86AE00E40A18;
+					};
+					34326E9420FD86B000E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34326E7120FD86AE00E40A18;
+					};
+				};
+			};
+			buildConfigurationList = 34326E6D20FD86AE00E40A18 /* Build configuration list for PBXProject "DoubleCircleImg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34326E6920FD86AE00E40A18;
+			productRefGroup = 34326E7320FD86AE00E40A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34326E7120FD86AE00E40A18 /* DoubleCircleImg */,
+				34326E8920FD86B000E40A18 /* DoubleCircleImgTests */,
+				34326E9420FD86B000E40A18 /* DoubleCircleImgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34326E7020FD86AE00E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326E8220FD86B000E40A18 /* LaunchScreen.storyboard in Resources */,
+				34326E7F20FD86B000E40A18 /* Assets.xcassets in Resources */,
+				34326E7D20FD86AE00E40A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E8820FD86B000E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E9320FD86B000E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34326E6E20FD86AE00E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326E7A20FD86AE00E40A18 /* ViewController.m in Sources */,
+				34326E8520FD86B000E40A18 /* main.m in Sources */,
+				34326E7720FD86AE00E40A18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E8620FD86B000E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326E8F20FD86B000E40A18 /* DoubleCircleImgTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326E9120FD86B000E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326E9A20FD86B000E40A18 /* DoubleCircleImgUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34326E8C20FD86B000E40A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34326E7120FD86AE00E40A18 /* DoubleCircleImg */;
+			targetProxy = 34326E8B20FD86B000E40A18 /* PBXContainerItemProxy */;
+		};
+		34326E9720FD86B000E40A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34326E7120FD86AE00E40A18 /* DoubleCircleImg */;
+			targetProxy = 34326E9620FD86B000E40A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34326E7B20FD86AE00E40A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34326E7C20FD86AE00E40A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34326E8020FD86B000E40A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34326E8120FD86B000E40A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34326E9C20FD86B000E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34326E9D20FD86B000E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34326E9F20FD86B000E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34326EA020FD86B000E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34326EA220FD86B000E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleCircleImg.app/DoubleCircleImg";
+			};
+			name = Debug;
+		};
+		34326EA320FD86B000E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleCircleImg.app/DoubleCircleImg";
+			};
+			name = Release;
+		};
+		34326EA520FD86B000E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleCircleImg;
+			};
+			name = Debug;
+		};
+		34326EA620FD86B000E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubleCircleImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.DoubleCircleImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleCircleImg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34326E6D20FD86AE00E40A18 /* Build configuration list for PBXProject "DoubleCircleImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326E9C20FD86B000E40A18 /* Debug */,
+				34326E9D20FD86B000E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326E9E20FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326E9F20FD86B000E40A18 /* Debug */,
+				34326EA020FD86B000E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326EA120FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EA220FD86B000E40A18 /* Debug */,
+				34326EA320FD86B000E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326EA420FD86B000E40A18 /* Build configuration list for PBXNativeTarget "DoubleCircleImgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EA520FD86B000E40A18 /* Debug */,
+				34326EA620FD86B000E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34326E6A20FD86AE00E40A18 /* Project object */;
+}

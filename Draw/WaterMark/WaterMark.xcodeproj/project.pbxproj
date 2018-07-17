@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34326EB520FD8C1F00E40A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326EB420FD8C1F00E40A18 /* AppDelegate.m */; };
+		34326EB820FD8C1F00E40A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326EB720FD8C1F00E40A18 /* ViewController.m */; };
+		34326EBB20FD8C1F00E40A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34326EB920FD8C1F00E40A18 /* Main.storyboard */; };
+		34326EBD20FD8C2100E40A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34326EBC20FD8C2100E40A18 /* Assets.xcassets */; };
+		34326EC020FD8C2100E40A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34326EBE20FD8C2100E40A18 /* LaunchScreen.storyboard */; };
+		34326EC320FD8C2100E40A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326EC220FD8C2100E40A18 /* main.m */; };
+		34326ECD20FD8C2100E40A18 /* WaterMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326ECC20FD8C2100E40A18 /* WaterMarkTests.m */; };
+		34326ED820FD8C2100E40A18 /* WaterMarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34326ED720FD8C2100E40A18 /* WaterMarkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34326EC920FD8C2100E40A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34326EA820FD8C1F00E40A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34326EAF20FD8C1F00E40A18;
+			remoteInfo = WaterMark;
+		};
+		34326ED420FD8C2100E40A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34326EA820FD8C1F00E40A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34326EAF20FD8C1F00E40A18;
+			remoteInfo = WaterMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34326EB020FD8C1F00E40A18 /* WaterMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326EB320FD8C1F00E40A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34326EB420FD8C1F00E40A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34326EB620FD8C1F00E40A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34326EB720FD8C1F00E40A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34326EBA20FD8C1F00E40A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34326EBC20FD8C2100E40A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34326EBF20FD8C2100E40A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34326EC120FD8C2100E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34326EC220FD8C2100E40A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34326EC820FD8C2100E40A18 /* WaterMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326ECC20FD8C2100E40A18 /* WaterMarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMarkTests.m; sourceTree = "<group>"; };
+		34326ECE20FD8C2100E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34326ED320FD8C2100E40A18 /* WaterMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34326ED720FD8C2100E40A18 /* WaterMarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMarkUITests.m; sourceTree = "<group>"; };
+		34326ED920FD8C2100E40A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34326EAD20FD8C1F00E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326EC520FD8C2100E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326ED020FD8C2100E40A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34326EA720FD8C1F00E40A18 = {
+			isa = PBXGroup;
+			children = (
+				34326EB220FD8C1F00E40A18 /* WaterMark */,
+				34326ECB20FD8C2100E40A18 /* WaterMarkTests */,
+				34326ED620FD8C2100E40A18 /* WaterMarkUITests */,
+				34326EB120FD8C1F00E40A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34326EB120FD8C1F00E40A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34326EB020FD8C1F00E40A18 /* WaterMark.app */,
+				34326EC820FD8C2100E40A18 /* WaterMarkTests.xctest */,
+				34326ED320FD8C2100E40A18 /* WaterMarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34326EB220FD8C1F00E40A18 /* WaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				34326EB320FD8C1F00E40A18 /* AppDelegate.h */,
+				34326EB420FD8C1F00E40A18 /* AppDelegate.m */,
+				34326EB620FD8C1F00E40A18 /* ViewController.h */,
+				34326EB720FD8C1F00E40A18 /* ViewController.m */,
+				34326EB920FD8C1F00E40A18 /* Main.storyboard */,
+				34326EBC20FD8C2100E40A18 /* Assets.xcassets */,
+				34326EBE20FD8C2100E40A18 /* LaunchScreen.storyboard */,
+				34326EC120FD8C2100E40A18 /* Info.plist */,
+				34326EC220FD8C2100E40A18 /* main.m */,
+			);
+			path = WaterMark;
+			sourceTree = "<group>";
+		};
+		34326ECB20FD8C2100E40A18 /* WaterMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				34326ECC20FD8C2100E40A18 /* WaterMarkTests.m */,
+				34326ECE20FD8C2100E40A18 /* Info.plist */,
+			);
+			path = WaterMarkTests;
+			sourceTree = "<group>";
+		};
+		34326ED620FD8C2100E40A18 /* WaterMarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34326ED720FD8C2100E40A18 /* WaterMarkUITests.m */,
+				34326ED920FD8C2100E40A18 /* Info.plist */,
+			);
+			path = WaterMarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34326EAF20FD8C1F00E40A18 /* WaterMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326EDC20FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMark" */;
+			buildPhases = (
+				34326EAC20FD8C1F00E40A18 /* Sources */,
+				34326EAD20FD8C1F00E40A18 /* Frameworks */,
+				34326EAE20FD8C1F00E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMark;
+			productName = WaterMark;
+			productReference = 34326EB020FD8C1F00E40A18 /* WaterMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34326EC720FD8C2100E40A18 /* WaterMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326EDF20FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMarkTests" */;
+			buildPhases = (
+				34326EC420FD8C2100E40A18 /* Sources */,
+				34326EC520FD8C2100E40A18 /* Frameworks */,
+				34326EC620FD8C2100E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34326ECA20FD8C2100E40A18 /* PBXTargetDependency */,
+			);
+			name = WaterMarkTests;
+			productName = WaterMarkTests;
+			productReference = 34326EC820FD8C2100E40A18 /* WaterMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34326ED220FD8C2100E40A18 /* WaterMarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34326EE220FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMarkUITests" */;
+			buildPhases = (
+				34326ECF20FD8C2100E40A18 /* Sources */,
+				34326ED020FD8C2100E40A18 /* Frameworks */,
+				34326ED120FD8C2100E40A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34326ED520FD8C2100E40A18 /* PBXTargetDependency */,
+			);
+			name = WaterMarkUITests;
+			productName = WaterMarkUITests;
+			productReference = 34326ED320FD8C2100E40A18 /* WaterMarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34326EA820FD8C1F00E40A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					34326EAF20FD8C1F00E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					34326EC720FD8C2100E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34326EAF20FD8C1F00E40A18;
+					};
+					34326ED220FD8C2100E40A18 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34326EAF20FD8C1F00E40A18;
+					};
+				};
+			};
+			buildConfigurationList = 34326EAB20FD8C1F00E40A18 /* Build configuration list for PBXProject "WaterMark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34326EA720FD8C1F00E40A18;
+			productRefGroup = 34326EB120FD8C1F00E40A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34326EAF20FD8C1F00E40A18 /* WaterMark */,
+				34326EC720FD8C2100E40A18 /* WaterMarkTests */,
+				34326ED220FD8C2100E40A18 /* WaterMarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34326EAE20FD8C1F00E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326EC020FD8C2100E40A18 /* LaunchScreen.storyboard in Resources */,
+				34326EBD20FD8C2100E40A18 /* Assets.xcassets in Resources */,
+				34326EBB20FD8C1F00E40A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326EC620FD8C2100E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326ED120FD8C2100E40A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34326EAC20FD8C1F00E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326EB820FD8C1F00E40A18 /* ViewController.m in Sources */,
+				34326EC320FD8C2100E40A18 /* main.m in Sources */,
+				34326EB520FD8C1F00E40A18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326EC420FD8C2100E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326ECD20FD8C2100E40A18 /* WaterMarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34326ECF20FD8C2100E40A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34326ED820FD8C2100E40A18 /* WaterMarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34326ECA20FD8C2100E40A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34326EAF20FD8C1F00E40A18 /* WaterMark */;
+			targetProxy = 34326EC920FD8C2100E40A18 /* PBXContainerItemProxy */;
+		};
+		34326ED520FD8C2100E40A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34326EAF20FD8C1F00E40A18 /* WaterMark */;
+			targetProxy = 34326ED420FD8C2100E40A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34326EB920FD8C1F00E40A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34326EBA20FD8C1F00E40A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34326EBE20FD8C2100E40A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34326EBF20FD8C2100E40A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34326EDA20FD8C2100E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34326EDB20FD8C2100E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34326EDD20FD8C2100E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34326EDE20FD8C2100E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34326EE020FD8C2100E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark.app/WaterMark";
+			};
+			name = Debug;
+		};
+		34326EE120FD8C2100E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark.app/WaterMark";
+			};
+			name = Release;
+		};
+		34326EE320FD8C2100E40A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterMark;
+			};
+			name = Debug;
+		};
+		34326EE420FD8C2100E40A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.WaterMarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterMark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34326EAB20FD8C1F00E40A18 /* Build configuration list for PBXProject "WaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EDA20FD8C2100E40A18 /* Debug */,
+				34326EDB20FD8C2100E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326EDC20FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EDD20FD8C2100E40A18 /* Debug */,
+				34326EDE20FD8C2100E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326EDF20FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EE020FD8C2100E40A18 /* Debug */,
+				34326EE120FD8C2100E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34326EE220FD8C2100E40A18 /* Build configuration list for PBXNativeTarget "WaterMarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34326EE320FD8C2100E40A18 /* Debug */,
+				34326EE420FD8C2100E40A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34326EA820FD8C1F00E40A18 /* Project object */;
+}

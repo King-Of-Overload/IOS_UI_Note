@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   flags.plist
+   KuniFlag
+
+   Created by Salu on 2018/7/8.
+   Copyright (c) 2018年 zjut. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>name</key>
+            <string>中国</string>
+            <key>icon</key>
+            <string>zhongguo.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>德国</string>
+            <key>icon</key>
+            <string>deguo.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>法国</string>
+            <key>icon</key>
+            <string>faguo.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>英国</string>
+            <key>icon</key>
+            <string>ying.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>瑞典</string>
+            <key>icon</key>
+            <string>ruidian.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>韩国</string>
+            <key>icon</key>
+            <string>hanguo.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>瑞士</string>
+            <key>icon</key>
+            <string>ruishi.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>阿根廷</string>
+            <key>icon</key>
+            <string>agt.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>巴西</string>
+            <key>icon</key>
+            <string>baxi.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>荷兰</string>
+            <key>icon</key>
+            <string>helan.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>葡萄牙</string>
+            <key>icon</key>
+            <string>putaoya.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>西班牙</string>
+            <key>icon</key>
+            <string>xiby.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>意大利</string>
+            <key>icon</key>
+            <string>ydl.jpg</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>乌拉圭</string>
+            <key>icon</key>
+            <string>wlgui.jpg</string>
+        </dict>
+    </array>
+</plist>

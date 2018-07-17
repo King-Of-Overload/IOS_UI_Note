@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34868EE520FC16FC00E03496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868EE420FC16FB00E03496 /* AppDelegate.m */; };
+		34868EE820FC16FC00E03496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868EE720FC16FC00E03496 /* ViewController.m */; };
+		34868EEB20FC16FC00E03496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34868EE920FC16FC00E03496 /* Main.storyboard */; };
+		34868EED20FC16FD00E03496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34868EEC20FC16FD00E03496 /* Assets.xcassets */; };
+		34868EF020FC16FD00E03496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34868EEE20FC16FD00E03496 /* LaunchScreen.storyboard */; };
+		34868EF320FC16FD00E03496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868EF220FC16FD00E03496 /* main.m */; };
+		34868EFD20FC16FD00E03496 /* HelloModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868EFC20FC16FD00E03496 /* HelloModalTests.m */; };
+		34868F0820FC16FD00E03496 /* HelloModalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868F0720FC16FD00E03496 /* HelloModalUITests.m */; };
+		34868F1720FC18CC00E03496 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868F1620FC18CC00E03496 /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34868EF920FC16FD00E03496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34868ED820FC16FB00E03496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34868EDF20FC16FB00E03496;
+			remoteInfo = HelloModal;
+		};
+		34868F0420FC16FD00E03496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34868ED820FC16FB00E03496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34868EDF20FC16FB00E03496;
+			remoteInfo = HelloModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34868EE020FC16FB00E03496 /* HelloModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34868EE320FC16FB00E03496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34868EE420FC16FB00E03496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34868EE620FC16FC00E03496 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34868EE720FC16FC00E03496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34868EEA20FC16FC00E03496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34868EEC20FC16FD00E03496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34868EEF20FC16FD00E03496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34868EF120FC16FD00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34868EF220FC16FD00E03496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34868EF820FC16FD00E03496 /* HelloModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34868EFC20FC16FD00E03496 /* HelloModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloModalTests.m; sourceTree = "<group>"; };
+		34868EFE20FC16FD00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34868F0320FC16FD00E03496 /* HelloModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloModalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34868F0720FC16FD00E03496 /* HelloModalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloModalUITests.m; sourceTree = "<group>"; };
+		34868F0920FC16FD00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34868F1520FC18CC00E03496 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		34868F1620FC18CC00E03496 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34868EDD20FC16FB00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868EF520FC16FD00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868F0020FC16FD00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34868ED720FC16FB00E03496 = {
+			isa = PBXGroup;
+			children = (
+				34868EE220FC16FB00E03496 /* HelloModal */,
+				34868EFB20FC16FD00E03496 /* HelloModalTests */,
+				34868F0620FC16FD00E03496 /* HelloModalUITests */,
+				34868EE120FC16FB00E03496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34868EE120FC16FB00E03496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34868EE020FC16FB00E03496 /* HelloModal.app */,
+				34868EF820FC16FD00E03496 /* HelloModalTests.xctest */,
+				34868F0320FC16FD00E03496 /* HelloModalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34868EE220FC16FB00E03496 /* HelloModal */ = {
+			isa = PBXGroup;
+			children = (
+				34868EE320FC16FB00E03496 /* AppDelegate.h */,
+				34868EE420FC16FB00E03496 /* AppDelegate.m */,
+				34868EE620FC16FC00E03496 /* ViewController.h */,
+				34868EE720FC16FC00E03496 /* ViewController.m */,
+				34868EE920FC16FC00E03496 /* Main.storyboard */,
+				34868EEC20FC16FD00E03496 /* Assets.xcassets */,
+				34868EEE20FC16FD00E03496 /* LaunchScreen.storyboard */,
+				34868EF120FC16FD00E03496 /* Info.plist */,
+				34868EF220FC16FD00E03496 /* main.m */,
+				34868F1520FC18CC00E03496 /* ModalViewController.h */,
+				34868F1620FC18CC00E03496 /* ModalViewController.m */,
+			);
+			path = HelloModal;
+			sourceTree = "<group>";
+		};
+		34868EFB20FC16FD00E03496 /* HelloModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				34868EFC20FC16FD00E03496 /* HelloModalTests.m */,
+				34868EFE20FC16FD00E03496 /* Info.plist */,
+			);
+			path = HelloModalTests;
+			sourceTree = "<group>";
+		};
+		34868F0620FC16FD00E03496 /* HelloModalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34868F0720FC16FD00E03496 /* HelloModalUITests.m */,
+				34868F0920FC16FD00E03496 /* Info.plist */,
+			);
+			path = HelloModalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34868EDF20FC16FB00E03496 /* HelloModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34868F0C20FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModal" */;
+			buildPhases = (
+				34868EDC20FC16FB00E03496 /* Sources */,
+				34868EDD20FC16FB00E03496 /* Frameworks */,
+				34868EDE20FC16FB00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloModal;
+			productName = HelloModal;
+			productReference = 34868EE020FC16FB00E03496 /* HelloModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34868EF720FC16FD00E03496 /* HelloModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34868F0F20FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModalTests" */;
+			buildPhases = (
+				34868EF420FC16FD00E03496 /* Sources */,
+				34868EF520FC16FD00E03496 /* Frameworks */,
+				34868EF620FC16FD00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34868EFA20FC16FD00E03496 /* PBXTargetDependency */,
+			);
+			name = HelloModalTests;
+			productName = HelloModalTests;
+			productReference = 34868EF820FC16FD00E03496 /* HelloModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34868F0220FC16FD00E03496 /* HelloModalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34868F1220FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModalUITests" */;
+			buildPhases = (
+				34868EFF20FC16FD00E03496 /* Sources */,
+				34868F0020FC16FD00E03496 /* Frameworks */,
+				34868F0120FC16FD00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34868F0520FC16FD00E03496 /* PBXTargetDependency */,
+			);
+			name = HelloModalUITests;
+			productName = HelloModalUITests;
+			productReference = 34868F0320FC16FD00E03496 /* HelloModalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34868ED820FC16FB00E03496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					34868EDF20FC16FB00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					34868EF720FC16FD00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34868EDF20FC16FB00E03496;
+					};
+					34868F0220FC16FD00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34868EDF20FC16FB00E03496;
+					};
+				};
+			};
+			buildConfigurationList = 34868EDB20FC16FB00E03496 /* Build configuration list for PBXProject "HelloModal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34868ED720FC16FB00E03496;
+			productRefGroup = 34868EE120FC16FB00E03496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34868EDF20FC16FB00E03496 /* HelloModal */,
+				34868EF720FC16FD00E03496 /* HelloModalTests */,
+				34868F0220FC16FD00E03496 /* HelloModalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34868EDE20FC16FB00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34868EF020FC16FD00E03496 /* LaunchScreen.storyboard in Resources */,
+				34868EED20FC16FD00E03496 /* Assets.xcassets in Resources */,
+				34868EEB20FC16FC00E03496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868EF620FC16FD00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868F0120FC16FD00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34868EDC20FC16FB00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34868F1720FC18CC00E03496 /* ModalViewController.m in Sources */,
+				34868EE820FC16FC00E03496 /* ViewController.m in Sources */,
+				34868EF320FC16FD00E03496 /* main.m in Sources */,
+				34868EE520FC16FC00E03496 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868EF420FC16FD00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34868EFD20FC16FD00E03496 /* HelloModalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34868EFF20FC16FD00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34868F0820FC16FD00E03496 /* HelloModalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34868EFA20FC16FD00E03496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34868EDF20FC16FB00E03496 /* HelloModal */;
+			targetProxy = 34868EF920FC16FD00E03496 /* PBXContainerItemProxy */;
+		};
+		34868F0520FC16FD00E03496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34868EDF20FC16FB00E03496 /* HelloModal */;
+			targetProxy = 34868F0420FC16FD00E03496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34868EE920FC16FC00E03496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34868EEA20FC16FC00E03496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34868EEE20FC16FD00E03496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34868EEF20FC16FD00E03496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34868F0A20FC16FD00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34868F0B20FC16FD00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34868F0D20FC16FD00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34868F0E20FC16FD00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34868F1020FC16FD00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloModal.app/HelloModal";
+			};
+			name = Debug;
+		};
+		34868F1120FC16FD00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloModal.app/HelloModal";
+			};
+			name = Release;
+		};
+		34868F1320FC16FD00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloModal;
+			};
+			name = Debug;
+		};
+		34868F1420FC16FD00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HelloModalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloModal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34868EDB20FC16FB00E03496 /* Build configuration list for PBXProject "HelloModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34868F0A20FC16FD00E03496 /* Debug */,
+				34868F0B20FC16FD00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34868F0C20FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34868F0D20FC16FD00E03496 /* Debug */,
+				34868F0E20FC16FD00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34868F0F20FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34868F1020FC16FD00E03496 /* Debug */,
+				34868F1120FC16FD00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34868F1220FC16FD00E03496 /* Build configuration list for PBXNativeTarget "HelloModalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34868F1320FC16FD00E03496 /* Debug */,
+				34868F1420FC16FD00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34868ED820FC16FB00E03496 /* Project object */;
+}

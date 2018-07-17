@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ors-lx-8th" customClass="MyView">
+                                <rect key="frame" x="37" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.95995731480000002" green="0.1959947195" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="PEZ-5s-WbW"/>
+                                    <constraint firstAttribute="width" constant="300" id="cNX-r2-SjK"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Np-ej-yAK">
+                                <rect key="frame" x="157" y="63" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="drawrect"/>
+                                <connections>
+                                    <segue destination="GDT-5s-C8R" kind="show" id="lp8-do-F54"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="win-Dm-I7h">
+                                <rect key="frame" x="151" y="114" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="C绘图样式"/>
+                                <connections>
+                                    <segue destination="T3J-dy-pg2" kind="show" id="Plc-wB-BPv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ors-lx-8th" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8qT-8o-dB1"/>
+                            <constraint firstItem="ors-lx-8th" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ezF-X1-wsP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="17"/>
+        </scene>
+        <!--Rect View Controller-->
+        <scene sceneID="sW6-ZE-8fe">
+            <objects>
+                <viewController id="GDT-5s-C8R" customClass="RectViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="05T-Fe-G1e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeB-WK-aCj" customClass="RectView">
+                                <rect key="frame" x="37" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.96361702930000004" green="0.7199210439" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="NkI-i7-84Y"/>
+                                    <constraint firstAttribute="width" constant="300" id="Qhg-sc-FAA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JeB-WK-aCj" firstAttribute="centerX" secondItem="05T-Fe-G1e" secondAttribute="centerX" id="IPM-zR-iea"/>
+                            <constraint firstItem="JeB-WK-aCj" firstAttribute="centerY" secondItem="05T-Fe-G1e" secondAttribute="centerY" id="YmW-oY-Z8P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q1m-ta-RJe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3s-tA-j0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MAb-Ni-630">
+            <objects>
+                <viewController id="T3J-dy-pg2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="etx-D6-pac">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTO-1g-eLp" customClass="CView">
+                                <rect key="frame" x="37" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.22566031010000001" green="0.30514144510000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="YdA-Ex-r13"/>
+                                    <constraint firstAttribute="height" constant="300" id="Zw4-pm-XqP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eTO-1g-eLp" firstAttribute="centerY" secondItem="etx-D6-pac" secondAttribute="centerY" id="NCX-t8-vst"/>
+                            <constraint firstItem="eTO-1g-eLp" firstAttribute="centerX" secondItem="etx-D6-pac" secondAttribute="centerX" id="cu8-Xs-TIN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qxG-he-XKg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QoN-9g-4kU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="686"/>
+        </scene>
+    </scenes>
+</document>

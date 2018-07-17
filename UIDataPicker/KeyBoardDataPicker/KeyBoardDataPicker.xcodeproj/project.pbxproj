@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3476948220F1A238006EDA38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476948120F1A238006EDA38 /* AppDelegate.m */; };
+		3476948520F1A238006EDA38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476948420F1A238006EDA38 /* ViewController.m */; };
+		3476948820F1A238006EDA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3476948620F1A238006EDA38 /* Main.storyboard */; };
+		3476948A20F1A23A006EDA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3476948920F1A23A006EDA38 /* Assets.xcassets */; };
+		3476948D20F1A23A006EDA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3476948B20F1A23A006EDA38 /* LaunchScreen.storyboard */; };
+		3476949020F1A23A006EDA38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476948F20F1A23A006EDA38 /* main.m */; };
+		3476949A20F1A23A006EDA38 /* KeyBoardDataPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476949920F1A23A006EDA38 /* KeyBoardDataPickerTests.m */; };
+		347694A520F1A23A006EDA38 /* KeyBoardDataPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347694A420F1A23A006EDA38 /* KeyBoardDataPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3476949620F1A23A006EDA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3476947520F1A238006EDA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3476947C20F1A238006EDA38;
+			remoteInfo = KeyBoardDataPicker;
+		};
+		347694A120F1A23A006EDA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3476947520F1A238006EDA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3476947C20F1A238006EDA38;
+			remoteInfo = KeyBoardDataPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3476947D20F1A238006EDA38 /* KeyBoardDataPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardDataPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476948020F1A238006EDA38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3476948120F1A238006EDA38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3476948320F1A238006EDA38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3476948420F1A238006EDA38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3476948720F1A238006EDA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3476948920F1A23A006EDA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3476948C20F1A23A006EDA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3476948E20F1A23A006EDA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3476948F20F1A23A006EDA38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3476949520F1A23A006EDA38 /* KeyBoardDataPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardDataPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476949920F1A23A006EDA38 /* KeyBoardDataPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardDataPickerTests.m; sourceTree = "<group>"; };
+		3476949B20F1A23A006EDA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347694A020F1A23A006EDA38 /* KeyBoardDataPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardDataPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347694A420F1A23A006EDA38 /* KeyBoardDataPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardDataPickerUITests.m; sourceTree = "<group>"; };
+		347694A620F1A23A006EDA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3476947A20F1A238006EDA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949220F1A23A006EDA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949D20F1A23A006EDA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3476947420F1A238006EDA38 = {
+			isa = PBXGroup;
+			children = (
+				3476947F20F1A238006EDA38 /* KeyBoardDataPicker */,
+				3476949820F1A23A006EDA38 /* KeyBoardDataPickerTests */,
+				347694A320F1A23A006EDA38 /* KeyBoardDataPickerUITests */,
+				3476947E20F1A238006EDA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3476947E20F1A238006EDA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3476947D20F1A238006EDA38 /* KeyBoardDataPicker.app */,
+				3476949520F1A23A006EDA38 /* KeyBoardDataPickerTests.xctest */,
+				347694A020F1A23A006EDA38 /* KeyBoardDataPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3476947F20F1A238006EDA38 /* KeyBoardDataPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3476948020F1A238006EDA38 /* AppDelegate.h */,
+				3476948120F1A238006EDA38 /* AppDelegate.m */,
+				3476948320F1A238006EDA38 /* ViewController.h */,
+				3476948420F1A238006EDA38 /* ViewController.m */,
+				3476948620F1A238006EDA38 /* Main.storyboard */,
+				3476948920F1A23A006EDA38 /* Assets.xcassets */,
+				3476948B20F1A23A006EDA38 /* LaunchScreen.storyboard */,
+				3476948E20F1A23A006EDA38 /* Info.plist */,
+				3476948F20F1A23A006EDA38 /* main.m */,
+			);
+			path = KeyBoardDataPicker;
+			sourceTree = "<group>";
+		};
+		3476949820F1A23A006EDA38 /* KeyBoardDataPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3476949920F1A23A006EDA38 /* KeyBoardDataPickerTests.m */,
+				3476949B20F1A23A006EDA38 /* Info.plist */,
+			);
+			path = KeyBoardDataPickerTests;
+			sourceTree = "<group>";
+		};
+		347694A320F1A23A006EDA38 /* KeyBoardDataPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				347694A420F1A23A006EDA38 /* KeyBoardDataPickerUITests.m */,
+				347694A620F1A23A006EDA38 /* Info.plist */,
+			);
+			path = KeyBoardDataPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3476947C20F1A238006EDA38 /* KeyBoardDataPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347694A920F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPicker" */;
+			buildPhases = (
+				3476947920F1A238006EDA38 /* Sources */,
+				3476947A20F1A238006EDA38 /* Frameworks */,
+				3476947B20F1A238006EDA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardDataPicker;
+			productName = KeyBoardDataPicker;
+			productReference = 3476947D20F1A238006EDA38 /* KeyBoardDataPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3476949420F1A23A006EDA38 /* KeyBoardDataPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347694AC20F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPickerTests" */;
+			buildPhases = (
+				3476949120F1A23A006EDA38 /* Sources */,
+				3476949220F1A23A006EDA38 /* Frameworks */,
+				3476949320F1A23A006EDA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3476949720F1A23A006EDA38 /* PBXTargetDependency */,
+			);
+			name = KeyBoardDataPickerTests;
+			productName = KeyBoardDataPickerTests;
+			productReference = 3476949520F1A23A006EDA38 /* KeyBoardDataPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3476949F20F1A23A006EDA38 /* KeyBoardDataPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347694AF20F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPickerUITests" */;
+			buildPhases = (
+				3476949C20F1A23A006EDA38 /* Sources */,
+				3476949D20F1A23A006EDA38 /* Frameworks */,
+				3476949E20F1A23A006EDA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347694A220F1A23A006EDA38 /* PBXTargetDependency */,
+			);
+			name = KeyBoardDataPickerUITests;
+			productName = KeyBoardDataPickerUITests;
+			productReference = 347694A020F1A23A006EDA38 /* KeyBoardDataPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3476947520F1A238006EDA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					3476947C20F1A238006EDA38 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3476949420F1A23A006EDA38 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3476947C20F1A238006EDA38;
+					};
+					3476949F20F1A23A006EDA38 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3476947C20F1A238006EDA38;
+					};
+				};
+			};
+			buildConfigurationList = 3476947820F1A238006EDA38 /* Build configuration list for PBXProject "KeyBoardDataPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3476947420F1A238006EDA38;
+			productRefGroup = 3476947E20F1A238006EDA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3476947C20F1A238006EDA38 /* KeyBoardDataPicker */,
+				3476949420F1A23A006EDA38 /* KeyBoardDataPickerTests */,
+				3476949F20F1A23A006EDA38 /* KeyBoardDataPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3476947B20F1A238006EDA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476948D20F1A23A006EDA38 /* LaunchScreen.storyboard in Resources */,
+				3476948A20F1A23A006EDA38 /* Assets.xcassets in Resources */,
+				3476948820F1A238006EDA38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949320F1A23A006EDA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949E20F1A23A006EDA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3476947920F1A238006EDA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476948520F1A238006EDA38 /* ViewController.m in Sources */,
+				3476949020F1A23A006EDA38 /* main.m in Sources */,
+				3476948220F1A238006EDA38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949120F1A23A006EDA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476949A20F1A23A006EDA38 /* KeyBoardDataPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476949C20F1A23A006EDA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347694A520F1A23A006EDA38 /* KeyBoardDataPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3476949720F1A23A006EDA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3476947C20F1A238006EDA38 /* KeyBoardDataPicker */;
+			targetProxy = 3476949620F1A23A006EDA38 /* PBXContainerItemProxy */;
+		};
+		347694A220F1A23A006EDA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3476947C20F1A238006EDA38 /* KeyBoardDataPicker */;
+			targetProxy = 347694A120F1A23A006EDA38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3476948620F1A238006EDA38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476948720F1A238006EDA38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3476948B20F1A23A006EDA38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476948C20F1A23A006EDA38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347694A720F1A23A006EDA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		347694A820F1A23A006EDA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347694AA20F1A23A006EDA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		347694AB20F1A23A006EDA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		347694AD20F1A23A006EDA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardDataPicker.app/KeyBoardDataPicker";
+			};
+			name = Debug;
+		};
+		347694AE20F1A23A006EDA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardDataPicker.app/KeyBoardDataPicker";
+			};
+			name = Release;
+		};
+		347694B020F1A23A006EDA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardDataPicker;
+			};
+			name = Debug;
+		};
+		347694B120F1A23A006EDA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardDataPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.KeyBoardDataPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardDataPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3476947820F1A238006EDA38 /* Build configuration list for PBXProject "KeyBoardDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347694A720F1A23A006EDA38 /* Debug */,
+				347694A820F1A23A006EDA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347694A920F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347694AA20F1A23A006EDA38 /* Debug */,
+				347694AB20F1A23A006EDA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347694AC20F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347694AD20F1A23A006EDA38 /* Debug */,
+				347694AE20F1A23A006EDA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347694AF20F1A23A006EDA38 /* Build configuration list for PBXNativeTarget "KeyBoardDataPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347694B020F1A23A006EDA38 /* Debug */,
+				347694B120F1A23A006EDA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3476947520F1A238006EDA38 /* Project object */;
+}

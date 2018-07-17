@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34868FF220FC860C00E03496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868FF120FC860C00E03496 /* AppDelegate.m */; };
+		34868FF520FC860C00E03496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868FF420FC860C00E03496 /* ViewController.m */; };
+		34868FF820FC860C00E03496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34868FF620FC860C00E03496 /* Main.storyboard */; };
+		34868FFA20FC860D00E03496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34868FF920FC860D00E03496 /* Assets.xcassets */; };
+		34868FFD20FC860D00E03496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34868FFB20FC860D00E03496 /* LaunchScreen.storyboard */; };
+		3486900020FC860D00E03496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868FFF20FC860D00E03496 /* main.m */; };
+		3486900A20FC860E00E03496 /* HistogramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486900920FC860E00E03496 /* HistogramTests.m */; };
+		3486901520FC860E00E03496 /* HistogramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486901420FC860E00E03496 /* HistogramUITests.m */; };
+		3486902420FC863D00E03496 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486902320FC863D00E03496 /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3486900620FC860E00E03496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34868FE520FC860B00E03496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34868FEC20FC860C00E03496;
+			remoteInfo = Histogram;
+		};
+		3486901120FC860E00E03496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34868FE520FC860B00E03496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34868FEC20FC860C00E03496;
+			remoteInfo = Histogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34868FED20FC860C00E03496 /* Histogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34868FF020FC860C00E03496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34868FF120FC860C00E03496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34868FF320FC860C00E03496 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34868FF420FC860C00E03496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34868FF720FC860C00E03496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34868FF920FC860D00E03496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34868FFC20FC860D00E03496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34868FFE20FC860D00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34868FFF20FC860D00E03496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3486900520FC860E00E03496 /* HistogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3486900920FC860E00E03496 /* HistogramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistogramTests.m; sourceTree = "<group>"; };
+		3486900B20FC860E00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3486901020FC860E00E03496 /* HistogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3486901420FC860E00E03496 /* HistogramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistogramUITests.m; sourceTree = "<group>"; };
+		3486901620FC860E00E03496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3486902220FC863D00E03496 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		3486902320FC863D00E03496 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34868FEA20FC860C00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900220FC860E00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900D20FC860E00E03496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34868FE420FC860B00E03496 = {
+			isa = PBXGroup;
+			children = (
+				34868FEF20FC860C00E03496 /* Histogram */,
+				3486900820FC860E00E03496 /* HistogramTests */,
+				3486901320FC860E00E03496 /* HistogramUITests */,
+				34868FEE20FC860C00E03496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34868FEE20FC860C00E03496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34868FED20FC860C00E03496 /* Histogram.app */,
+				3486900520FC860E00E03496 /* HistogramTests.xctest */,
+				3486901020FC860E00E03496 /* HistogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34868FEF20FC860C00E03496 /* Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				34868FF020FC860C00E03496 /* AppDelegate.h */,
+				34868FF120FC860C00E03496 /* AppDelegate.m */,
+				34868FF320FC860C00E03496 /* ViewController.h */,
+				34868FF420FC860C00E03496 /* ViewController.m */,
+				34868FF620FC860C00E03496 /* Main.storyboard */,
+				34868FF920FC860D00E03496 /* Assets.xcassets */,
+				34868FFB20FC860D00E03496 /* LaunchScreen.storyboard */,
+				34868FFE20FC860D00E03496 /* Info.plist */,
+				34868FFF20FC860D00E03496 /* main.m */,
+				3486902220FC863D00E03496 /* MyView.h */,
+				3486902320FC863D00E03496 /* MyView.m */,
+			);
+			path = Histogram;
+			sourceTree = "<group>";
+		};
+		3486900820FC860E00E03496 /* HistogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				3486900920FC860E00E03496 /* HistogramTests.m */,
+				3486900B20FC860E00E03496 /* Info.plist */,
+			);
+			path = HistogramTests;
+			sourceTree = "<group>";
+		};
+		3486901320FC860E00E03496 /* HistogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3486901420FC860E00E03496 /* HistogramUITests.m */,
+				3486901620FC860E00E03496 /* Info.plist */,
+			);
+			path = HistogramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34868FEC20FC860C00E03496 /* Histogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3486901920FC860E00E03496 /* Build configuration list for PBXNativeTarget "Histogram" */;
+			buildPhases = (
+				34868FE920FC860C00E03496 /* Sources */,
+				34868FEA20FC860C00E03496 /* Frameworks */,
+				34868FEB20FC860C00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Histogram;
+			productName = Histogram;
+			productReference = 34868FED20FC860C00E03496 /* Histogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3486900420FC860E00E03496 /* HistogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3486901C20FC860E00E03496 /* Build configuration list for PBXNativeTarget "HistogramTests" */;
+			buildPhases = (
+				3486900120FC860E00E03496 /* Sources */,
+				3486900220FC860E00E03496 /* Frameworks */,
+				3486900320FC860E00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3486900720FC860E00E03496 /* PBXTargetDependency */,
+			);
+			name = HistogramTests;
+			productName = HistogramTests;
+			productReference = 3486900520FC860E00E03496 /* HistogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3486900F20FC860E00E03496 /* HistogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3486901F20FC860E00E03496 /* Build configuration list for PBXNativeTarget "HistogramUITests" */;
+			buildPhases = (
+				3486900C20FC860E00E03496 /* Sources */,
+				3486900D20FC860E00E03496 /* Frameworks */,
+				3486900E20FC860E00E03496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3486901220FC860E00E03496 /* PBXTargetDependency */,
+			);
+			name = HistogramUITests;
+			productName = HistogramUITests;
+			productReference = 3486901020FC860E00E03496 /* HistogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34868FE520FC860B00E03496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					34868FEC20FC860C00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3486900420FC860E00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34868FEC20FC860C00E03496;
+					};
+					3486900F20FC860E00E03496 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 34868FEC20FC860C00E03496;
+					};
+				};
+			};
+			buildConfigurationList = 34868FE820FC860B00E03496 /* Build configuration list for PBXProject "Histogram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34868FE420FC860B00E03496;
+			productRefGroup = 34868FEE20FC860C00E03496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34868FEC20FC860C00E03496 /* Histogram */,
+				3486900420FC860E00E03496 /* HistogramTests */,
+				3486900F20FC860E00E03496 /* HistogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34868FEB20FC860C00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34868FFD20FC860D00E03496 /* LaunchScreen.storyboard in Resources */,
+				34868FFA20FC860D00E03496 /* Assets.xcassets in Resources */,
+				34868FF820FC860C00E03496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900320FC860E00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900E20FC860E00E03496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34868FE920FC860C00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3486902420FC863D00E03496 /* MyView.m in Sources */,
+				34868FF520FC860C00E03496 /* ViewController.m in Sources */,
+				3486900020FC860D00E03496 /* main.m in Sources */,
+				34868FF220FC860C00E03496 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900120FC860E00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3486900A20FC860E00E03496 /* HistogramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3486900C20FC860E00E03496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3486901520FC860E00E03496 /* HistogramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3486900720FC860E00E03496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34868FEC20FC860C00E03496 /* Histogram */;
+			targetProxy = 3486900620FC860E00E03496 /* PBXContainerItemProxy */;
+		};
+		3486901220FC860E00E03496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34868FEC20FC860C00E03496 /* Histogram */;
+			targetProxy = 3486901120FC860E00E03496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34868FF620FC860C00E03496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34868FF720FC860C00E03496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34868FFB20FC860D00E03496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34868FFC20FC860D00E03496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3486901720FC860E00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3486901820FC860E00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3486901A20FC860E00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Histogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.Histogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3486901B20FC860E00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Histogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.Histogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3486901D20FC860E00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HistogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Histogram.app/Histogram";
+			};
+			name = Debug;
+		};
+		3486901E20FC860E00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HistogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Histogram.app/Histogram";
+			};
+			name = Release;
+		};
+		3486902020FC860E00E03496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HistogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Histogram;
+			};
+			name = Debug;
+		};
+		3486902120FC860E00E03496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.HistogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Histogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34868FE820FC860B00E03496 /* Build configuration list for PBXProject "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3486901720FC860E00E03496 /* Debug */,
+				3486901820FC860E00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3486901920FC860E00E03496 /* Build configuration list for PBXNativeTarget "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3486901A20FC860E00E03496 /* Debug */,
+				3486901B20FC860E00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3486901C20FC860E00E03496 /* Build configuration list for PBXNativeTarget "HistogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3486901D20FC860E00E03496 /* Debug */,
+				3486901E20FC860E00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3486901F20FC860E00E03496 /* Build configuration list for PBXNativeTarget "HistogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3486902020FC860E00E03496 /* Debug */,
+				3486902120FC860E00E03496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34868FE520FC860B00E03496 /* Project object */;
+}
