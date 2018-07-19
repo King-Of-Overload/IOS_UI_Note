@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3409F5C921008BC40013779D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5C821008BC40013779D /* AppDelegate.m */; };
+		3409F5CC21008BC40013779D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5CB21008BC40013779D /* ViewController.m */; };
+		3409F5CF21008BC40013779D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3409F5CD21008BC40013779D /* Main.storyboard */; };
+		3409F5D121008BC50013779D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3409F5D021008BC50013779D /* Assets.xcassets */; };
+		3409F5D421008BC50013779D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3409F5D221008BC50013779D /* LaunchScreen.storyboard */; };
+		3409F5D721008BC50013779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5D621008BC50013779D /* main.m */; };
+		3409F5E121008BC50013779D /* SingleTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5E021008BC50013779D /* SingleTouchTests.m */; };
+		3409F5EC21008BC50013779D /* SingleTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5EB21008BC50013779D /* SingleTouchUITests.m */; };
+		3409F5FB21008BDD0013779D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5FA21008BDD0013779D /* MyView.m */; };
+		3409F5FE21008F140013779D /* BgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3409F5FD21008F140013779D /* BgView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3409F5DD21008BC50013779D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3409F5BC21008BC40013779D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3409F5C321008BC40013779D;
+			remoteInfo = SingleTouch;
+		};
+		3409F5E821008BC50013779D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3409F5BC21008BC40013779D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3409F5C321008BC40013779D;
+			remoteInfo = SingleTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3409F5C421008BC40013779D /* SingleTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409F5C721008BC40013779D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3409F5C821008BC40013779D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3409F5CA21008BC40013779D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3409F5CB21008BC40013779D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3409F5CE21008BC40013779D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3409F5D021008BC50013779D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3409F5D321008BC50013779D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3409F5D521008BC50013779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3409F5D621008BC50013779D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3409F5DC21008BC50013779D /* SingleTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409F5E021008BC50013779D /* SingleTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTouchTests.m; sourceTree = "<group>"; };
+		3409F5E221008BC50013779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3409F5E721008BC50013779D /* SingleTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409F5EB21008BC50013779D /* SingleTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTouchUITests.m; sourceTree = "<group>"; };
+		3409F5ED21008BC50013779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3409F5F921008BDD0013779D /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		3409F5FA21008BDD0013779D /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		3409F5FC21008F140013779D /* BgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BgView.h; sourceTree = "<group>"; };
+		3409F5FD21008F140013779D /* BgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BgView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3409F5C121008BC40013779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5D921008BC50013779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5E421008BC50013779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3409F5BB21008BC40013779D = {
+			isa = PBXGroup;
+			children = (
+				3409F5C621008BC40013779D /* SingleTouch */,
+				3409F5DF21008BC50013779D /* SingleTouchTests */,
+				3409F5EA21008BC50013779D /* SingleTouchUITests */,
+				3409F5C521008BC40013779D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3409F5C521008BC40013779D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3409F5C421008BC40013779D /* SingleTouch.app */,
+				3409F5DC21008BC50013779D /* SingleTouchTests.xctest */,
+				3409F5E721008BC50013779D /* SingleTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3409F5C621008BC40013779D /* SingleTouch */ = {
+			isa = PBXGroup;
+			children = (
+				3409F5C721008BC40013779D /* AppDelegate.h */,
+				3409F5C821008BC40013779D /* AppDelegate.m */,
+				3409F5CA21008BC40013779D /* ViewController.h */,
+				3409F5CB21008BC40013779D /* ViewController.m */,
+				3409F5CD21008BC40013779D /* Main.storyboard */,
+				3409F5D021008BC50013779D /* Assets.xcassets */,
+				3409F5D221008BC50013779D /* LaunchScreen.storyboard */,
+				3409F5D521008BC50013779D /* Info.plist */,
+				3409F5D621008BC50013779D /* main.m */,
+				3409F5F921008BDD0013779D /* MyView.h */,
+				3409F5FA21008BDD0013779D /* MyView.m */,
+				3409F5FC21008F140013779D /* BgView.h */,
+				3409F5FD21008F140013779D /* BgView.m */,
+			);
+			path = SingleTouch;
+			sourceTree = "<group>";
+		};
+		3409F5DF21008BC50013779D /* SingleTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3409F5E021008BC50013779D /* SingleTouchTests.m */,
+				3409F5E221008BC50013779D /* Info.plist */,
+			);
+			path = SingleTouchTests;
+			sourceTree = "<group>";
+		};
+		3409F5EA21008BC50013779D /* SingleTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3409F5EB21008BC50013779D /* SingleTouchUITests.m */,
+				3409F5ED21008BC50013779D /* Info.plist */,
+			);
+			path = SingleTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3409F5C321008BC40013779D /* SingleTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3409F5F021008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouch" */;
+			buildPhases = (
+				3409F5C021008BC40013779D /* Sources */,
+				3409F5C121008BC40013779D /* Frameworks */,
+				3409F5C221008BC40013779D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleTouch;
+			productName = SingleTouch;
+			productReference = 3409F5C421008BC40013779D /* SingleTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3409F5DB21008BC50013779D /* SingleTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3409F5F321008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouchTests" */;
+			buildPhases = (
+				3409F5D821008BC50013779D /* Sources */,
+				3409F5D921008BC50013779D /* Frameworks */,
+				3409F5DA21008BC50013779D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3409F5DE21008BC50013779D /* PBXTargetDependency */,
+			);
+			name = SingleTouchTests;
+			productName = SingleTouchTests;
+			productReference = 3409F5DC21008BC50013779D /* SingleTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3409F5E621008BC50013779D /* SingleTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3409F5F621008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouchUITests" */;
+			buildPhases = (
+				3409F5E321008BC50013779D /* Sources */,
+				3409F5E421008BC50013779D /* Frameworks */,
+				3409F5E521008BC50013779D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3409F5E921008BC50013779D /* PBXTargetDependency */,
+			);
+			name = SingleTouchUITests;
+			productName = SingleTouchUITests;
+			productReference = 3409F5E721008BC50013779D /* SingleTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3409F5BC21008BC40013779D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					3409F5C321008BC40013779D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3409F5DB21008BC50013779D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3409F5C321008BC40013779D;
+					};
+					3409F5E621008BC50013779D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3409F5C321008BC40013779D;
+					};
+				};
+			};
+			buildConfigurationList = 3409F5BF21008BC40013779D /* Build configuration list for PBXProject "SingleTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3409F5BB21008BC40013779D;
+			productRefGroup = 3409F5C521008BC40013779D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3409F5C321008BC40013779D /* SingleTouch */,
+				3409F5DB21008BC50013779D /* SingleTouchTests */,
+				3409F5E621008BC50013779D /* SingleTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3409F5C221008BC40013779D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3409F5D421008BC50013779D /* LaunchScreen.storyboard in Resources */,
+				3409F5D121008BC50013779D /* Assets.xcassets in Resources */,
+				3409F5CF21008BC40013779D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5DA21008BC50013779D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5E521008BC50013779D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3409F5C021008BC40013779D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3409F5FB21008BDD0013779D /* MyView.m in Sources */,
+				3409F5CC21008BC40013779D /* ViewController.m in Sources */,
+				3409F5D721008BC50013779D /* main.m in Sources */,
+				3409F5C921008BC40013779D /* AppDelegate.m in Sources */,
+				3409F5FE21008F140013779D /* BgView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5D821008BC50013779D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3409F5E121008BC50013779D /* SingleTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3409F5E321008BC50013779D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3409F5EC21008BC50013779D /* SingleTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3409F5DE21008BC50013779D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3409F5C321008BC40013779D /* SingleTouch */;
+			targetProxy = 3409F5DD21008BC50013779D /* PBXContainerItemProxy */;
+		};
+		3409F5E921008BC50013779D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3409F5C321008BC40013779D /* SingleTouch */;
+			targetProxy = 3409F5E821008BC50013779D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3409F5CD21008BC40013779D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3409F5CE21008BC40013779D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3409F5D221008BC50013779D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3409F5D321008BC50013779D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3409F5EE21008BC50013779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3409F5EF21008BC50013779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3409F5F121008BC50013779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3409F5F221008BC50013779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3409F5F421008BC50013779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleTouch.app/SingleTouch";
+			};
+			name = Debug;
+		};
+		3409F5F521008BC50013779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleTouch.app/SingleTouch";
+			};
+			name = Release;
+		};
+		3409F5F721008BC50013779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleTouch;
+			};
+			name = Debug;
+		};
+		3409F5F821008BC50013779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingleTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = salu.zjut.SingleTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3409F5BF21008BC40013779D /* Build configuration list for PBXProject "SingleTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409F5EE21008BC50013779D /* Debug */,
+				3409F5EF21008BC50013779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3409F5F021008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409F5F121008BC50013779D /* Debug */,
+				3409F5F221008BC50013779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3409F5F321008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409F5F421008BC50013779D /* Debug */,
+				3409F5F521008BC50013779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3409F5F621008BC50013779D /* Build configuration list for PBXNativeTarget "SingleTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409F5F721008BC50013779D /* Debug */,
+				3409F5F821008BC50013779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3409F5BC21008BC40013779D /* Project object */;
+}
