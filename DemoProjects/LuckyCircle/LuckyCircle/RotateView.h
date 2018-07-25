@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RotateView : UIView
+@interface RotateView : UIView <UIAlertViewDelegate>
 
 + (instancetype) rotateView;
 
 @property (weak, nonatomic) IBOutlet UIImageView *rotateOptionView;
+
+-(void) startRotate;
+- (IBAction)pickNumber:(UIButton *)sender;
 @end
