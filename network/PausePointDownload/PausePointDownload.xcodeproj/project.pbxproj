@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342B517F210DB583005C2555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B517E210DB583005C2555 /* AppDelegate.m */; };
+		342B5182210DB584005C2555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B5181210DB584005C2555 /* ViewController.m */; };
+		342B5185210DB584005C2555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B5183210DB584005C2555 /* Main.storyboard */; };
+		342B5187210DB584005C2555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B5186210DB584005C2555 /* Assets.xcassets */; };
+		342B518A210DB584005C2555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B5188210DB584005C2555 /* LaunchScreen.storyboard */; };
+		342B518D210DB584005C2555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B518C210DB584005C2555 /* main.m */; };
+		342B5197210DB584005C2555 /* PausePointDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B5196210DB584005C2555 /* PausePointDownloadTests.m */; };
+		342B51A2210DB584005C2555 /* PausePointDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342B51A1210DB584005C2555 /* PausePointDownloadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342B5193210DB584005C2555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342B5172210DB583005C2555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342B5179210DB583005C2555;
+			remoteInfo = PausePointDownload;
+		};
+		342B519E210DB584005C2555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342B5172210DB583005C2555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342B5179210DB583005C2555;
+			remoteInfo = PausePointDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342B517A210DB583005C2555 /* PausePointDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PausePointDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342B517D210DB583005C2555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		342B517E210DB583005C2555 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		342B5180210DB584005C2555 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		342B5181210DB584005C2555 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		342B5184210DB584005C2555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342B5186210DB584005C2555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342B5189210DB584005C2555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342B518B210DB584005C2555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342B518C210DB584005C2555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342B5192210DB584005C2555 /* PausePointDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PausePointDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342B5196210DB584005C2555 /* PausePointDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PausePointDownloadTests.m; sourceTree = "<group>"; };
+		342B5198210DB584005C2555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342B519D210DB584005C2555 /* PausePointDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PausePointDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342B51A1210DB584005C2555 /* PausePointDownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PausePointDownloadUITests.m; sourceTree = "<group>"; };
+		342B51A3210DB584005C2555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342B5177210DB583005C2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B518F210DB584005C2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B519A210DB584005C2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342B5171210DB583005C2555 = {
+			isa = PBXGroup;
+			children = (
+				342B517C210DB583005C2555 /* PausePointDownload */,
+				342B5195210DB584005C2555 /* PausePointDownloadTests */,
+				342B51A0210DB584005C2555 /* PausePointDownloadUITests */,
+				342B517B210DB583005C2555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342B517B210DB583005C2555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342B517A210DB583005C2555 /* PausePointDownload.app */,
+				342B5192210DB584005C2555 /* PausePointDownloadTests.xctest */,
+				342B519D210DB584005C2555 /* PausePointDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342B517C210DB583005C2555 /* PausePointDownload */ = {
+			isa = PBXGroup;
+			children = (
+				342B517D210DB583005C2555 /* AppDelegate.h */,
+				342B517E210DB583005C2555 /* AppDelegate.m */,
+				342B5180210DB584005C2555 /* ViewController.h */,
+				342B5181210DB584005C2555 /* ViewController.m */,
+				342B5183210DB584005C2555 /* Main.storyboard */,
+				342B5186210DB584005C2555 /* Assets.xcassets */,
+				342B5188210DB584005C2555 /* LaunchScreen.storyboard */,
+				342B518B210DB584005C2555 /* Info.plist */,
+				342B518C210DB584005C2555 /* main.m */,
+			);
+			path = PausePointDownload;
+			sourceTree = "<group>";
+		};
+		342B5195210DB584005C2555 /* PausePointDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				342B5196210DB584005C2555 /* PausePointDownloadTests.m */,
+				342B5198210DB584005C2555 /* Info.plist */,
+			);
+			path = PausePointDownloadTests;
+			sourceTree = "<group>";
+		};
+		342B51A0210DB584005C2555 /* PausePointDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				342B51A1210DB584005C2555 /* PausePointDownloadUITests.m */,
+				342B51A3210DB584005C2555 /* Info.plist */,
+			);
+			path = PausePointDownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342B5179210DB583005C2555 /* PausePointDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342B51A6210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownload" */;
+			buildPhases = (
+				342B5176210DB583005C2555 /* Sources */,
+				342B5177210DB583005C2555 /* Frameworks */,
+				342B5178210DB583005C2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PausePointDownload;
+			productName = PausePointDownload;
+			productReference = 342B517A210DB583005C2555 /* PausePointDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342B5191210DB584005C2555 /* PausePointDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342B51A9210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownloadTests" */;
+			buildPhases = (
+				342B518E210DB584005C2555 /* Sources */,
+				342B518F210DB584005C2555 /* Frameworks */,
+				342B5190210DB584005C2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342B5194210DB584005C2555 /* PBXTargetDependency */,
+			);
+			name = PausePointDownloadTests;
+			productName = PausePointDownloadTests;
+			productReference = 342B5192210DB584005C2555 /* PausePointDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		342B519C210DB584005C2555 /* PausePointDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342B51AC210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownloadUITests" */;
+			buildPhases = (
+				342B5199210DB584005C2555 /* Sources */,
+				342B519A210DB584005C2555 /* Frameworks */,
+				342B519B210DB584005C2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342B519F210DB584005C2555 /* PBXTargetDependency */,
+			);
+			name = PausePointDownloadUITests;
+			productName = PausePointDownloadUITests;
+			productReference = 342B519D210DB584005C2555 /* PausePointDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342B5172210DB583005C2555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zjut;
+				TargetAttributes = {
+					342B5179210DB583005C2555 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					342B5191210DB584005C2555 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 342B5179210DB583005C2555;
+					};
+					342B519C210DB584005C2555 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 342B5179210DB583005C2555;
+					};
+				};
+			};
+			buildConfigurationList = 342B5175210DB583005C2555 /* Build configuration list for PBXProject "PausePointDownload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342B5171210DB583005C2555;
+			productRefGroup = 342B517B210DB583005C2555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342B5179210DB583005C2555 /* PausePointDownload */,
+				342B5191210DB584005C2555 /* PausePointDownloadTests */,
+				342B519C210DB584005C2555 /* PausePointDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342B5178210DB583005C2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B518A210DB584005C2555 /* LaunchScreen.storyboard in Resources */,
+				342B5187210DB584005C2555 /* Assets.xcassets in Resources */,
+				342B5185210DB584005C2555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B5190210DB584005C2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B519B210DB584005C2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342B5176210DB583005C2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B5182210DB584005C2555 /* ViewController.m in Sources */,
+				342B518D210DB584005C2555 /* main.m in Sources */,
+				342B517F210DB583005C2555 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B518E210DB584005C2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B5197210DB584005C2555 /* PausePointDownloadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342B5199210DB584005C2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B51A2210DB584005C2555 /* PausePointDownloadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342B5194210DB584005C2555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342B5179210DB583005C2555 /* PausePointDownload */;
+			targetProxy = 342B5193210DB584005C2555 /* PBXContainerItemProxy */;
+		};
+		342B519F210DB584005C2555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342B5179210DB583005C2555 /* PausePointDownload */;
+			targetProxy = 342B519E210DB584005C2555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342B5183210DB584005C2555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B5184210DB584005C2555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342B5188210DB584005C2555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342B5189210DB584005C2555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342B51A4210DB584005C2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		342B51A5210DB584005C2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342B51A7210DB584005C2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342B51A8210DB584005C2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		342B51AA210DB584005C2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PausePointDownload.app/PausePointDownload";
+			};
+			name = Debug;
+		};
+		342B51AB210DB584005C2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PausePointDownload.app/PausePointDownload";
+			};
+			name = Release;
+		};
+		342B51AD210DB584005C2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PausePointDownload;
+			};
+			name = Debug;
+		};
+		342B51AE210DB584005C2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PausePointDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.salu.zjut.PausePointDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PausePointDownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342B5175210DB583005C2555 /* Build configuration list for PBXProject "PausePointDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342B51A4210DB584005C2555 /* Debug */,
+				342B51A5210DB584005C2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342B51A6210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342B51A7210DB584005C2555 /* Debug */,
+				342B51A8210DB584005C2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342B51A9210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342B51AA210DB584005C2555 /* Debug */,
+				342B51AB210DB584005C2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342B51AC210DB584005C2555 /* Build configuration list for PBXNativeTarget "PausePointDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342B51AD210DB584005C2555 /* Debug */,
+				342B51AE210DB584005C2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342B5172210DB583005C2555 /* Project object */;
+}
